@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stop-adobereader.hook</id>
+    <version>1.0.0</version>
+    <title>stop-adobereader.hook (Install)</title>
+    <authors>jeromehage</authors>
+    <tags>stop-adobereader.hook</tags>
+    <summary>prevent choco install adobereader</summary>
+    <description>stop adobe reader from being installed with chocolatey</description>
+  </metadata>
+  <files>
+    <file src="hook\**" target="hook" />
+  </files>
+</package>
